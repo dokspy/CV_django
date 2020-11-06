@@ -1,0 +1,114 @@
+{% load  static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'polls/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'polls/headerStyle.css' %}" />
+    <link rel="stylesheet" href="{% static 'polls/footerStyle.css' %}">
+    <script
+      src="https://kit.fontawesome.com/25691b521e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>My CV</title>
+  </head>
+  <body>
+    <!-- begin header and navigation -->
+    <header>
+      <nav>
+        <ul class="nav_bar">
+          <li class="nav mainlink"><a href="index">Головна</a></li>
+          <li class="nav secondlink"><a href="data">Терміни</a></li>
+          <li class="nav secondlink"><a href="cvofficial">Official</a></li>
+          <div class="zaglyshka"></div>
+          <div class="zaglyshka"></div>
+          <div class="zaglyshka"></div>
+          <div class="zaglyshka"></div>
+          <div class="zaglyshka"></div>
+          <div class="zaglyshka"></div>
+          <li class="nav change_lan"><a href="engcv">eng</a></li>
+          <li class="nav">
+            <button onclick="toggleTheme('dark')">Dark</button
+            ><button onclick="toggleTheme('light')">Light</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- end header and navigation -->
+    <main>
+      <div class="costul"></div>
+      <!-- begin main block -->
+      <div class="CV_main_block">
+        <h1 class="center">Данііл Передеренко</h1>
+        <div class="general_info padb">
+          <p class="pad padt">
+            <b><i class="far fa-envelope"></i>Електрона пошта:</b>
+            danperederenko@gmail.com
+          </p>
+          <p class="pad">
+            <b><i class="fas fa-phone"></i>Номер телефону:</b>
+            (380)-097-***-**-20
+          </p>
+          <p class="pad">
+            <b><i class="fas fa-map-marker-alt"></i>Місце проживання:</b>
+            с.Білозір'я
+          </p>
+          <p class="pad">
+            <b><i class="far fa-laugh"></i>Якості:</b> чесний, працьовитий,
+            пунктуальність
+          </p>
+        </div>
+        <div class="hobby block">
+          <div class="head_name center"><h2>Хоббі</h2></div>
+          <div class="info">
+            <p>Читання книг</p>
+            <p>Собака</p>
+            <p>Малювання</p>
+            <p>Музика</p>
+            <p>3д скульптинг</p>
+          </div>
+        </div>
+        <div class="skills block">
+          <div class="head_name center"><h2>Скілли</h2></div>
+          <div class="info">
+            <p>HTML5/CSS3 -- 1рік</p>
+            <p>git -- 1 рік</p>
+            <p>Python3.8 -- 0.5 року</p>
+          </div>
+        </div>
+        <div class="exp block">
+          <div class="head_name center"><h2>Досвіт</h2></div>
+          <div class="info"><p>ЧДТУ: DeanOffice 2.0, осінь 2019 - ...</p></div>
+        </div>
+        <div class="edu block">
+          <div class="head_name center"><h2>Освіта</h2></div>
+          <div class="info"><p>ЧДТУ, Web бакалавр 2019 - 2023</p></div>
+        </div>
+        <div class="lang block">
+          <div class="head_name center"><h2>Мови</h2></div>
+          <div class="info">
+            <p>Українська/Російська: Носій</p>
+            <p>Англійська: А2</p>
+          </div>
+        </div>
+        <div class="cer block">
+          <div class="head_name center"><h2>Сертіфікати</h2></div>
+          <div class="info"><p>Немаю</p></div>
+        </div>
+      </div>
+      <div class="costul"></div>
+    </main>
+    <!-- begin footer -->
+    <footer>
+      <div class="left"></div>
+      <div class="mid">
+        <p><i class="far fa-copyright"></i>Creating by student</p>
+      </div>
+      <div class="right"></div>
+    </footer>
+    <!-- end footer -->
+    <script src="js/Easy-theme-toggle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+[data-theme="dark"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+[data-theme="light"] {
+  filter: invert(0) hue-rotate(0deg);
+}
+/* html{
+    background-color: thistle;
+} */
+
+/* .nav {
+  display: inline;
+  font-family: "Montserrat";
+  font-size: 25px;
+}
+
+nav {
+  position: sticky;
+}
+
+header {
+  background-color: gainsboro;
+  height: 40px;
+}
+
+.nav_bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  padding-right: 25px;
+  margin-top: 30px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.zaglyshka {
+  width: 100px;
+} */
+
+/* ---------------------------------------------------- */
+main {
+  /* background-color: wheat; */
+  display: flex;
+  font-family: "Montserrat";
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.CV_main_block {
+  /* background-color: whitesmoke; */
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.head_name {
+  border-bottom: solid 1px;
+  background-color: skyblue;
+  height: 40px;
+}
+.center {
+  text-align: center;
+}
+.general_info {
+  font-size: 20px;
+}
+.info {
+  font-size: 18px;
+  margin: 0px 0px 30px 0px;
+}
+.block {
+  border: solid 1px;
+}
+p.pad {
+  padding-bottom: 15px;
+}
+.padt {
+  padding-top: 20px;
+}
+.padb {
+  margin-bottom: 30px;
+}
+.h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.data {
+  font-size: 18px;
+  margin-bottom: 40px;
+}

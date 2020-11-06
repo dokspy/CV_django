@@ -1,0 +1,117 @@
+{% load  static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'polls/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'polls/headerStyle.css' %}" />
+    <link rel="stylesheet" href="{% static 'polls/footerStyle.css' %}">
+    <script
+      src="https://kit.fontawesome.com/25691b521e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>My CV</title>
+  </head>
+  <body>
+    <!-- begin header and navigation -->
+    <header>
+      <nav>
+        <ul class="nav_bar">
+          <li class="nav mainlink"><a href="index">General</a></li>
+          <li class="nav secondlink"><a href="data">Date</a></li>
+          <div class="zaglyshka"></div>
+          <div class="zaglyshka"></div>
+          <div class="zaglyshka"></div>
+          <div class="zaglyshka"></div>
+          <div class="zaglyshka"></div>
+          <div class="zaglyshka"></div>
+          <div class="zaglyshka"></div>
+          <li class="nav change_lan"><a href="engcv">eng</a></li>
+          <li class="nav">
+            <button onclick="toggleTheme('dark')">Dark</button
+            ><button onclick="toggleTheme('light')">Light</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- end header and navigation -->
+    <main>
+      <div class="costul"></div>
+      <!-- begin main block -->
+      <div class="CV_main_block">
+        <h1 class="center">Daniel Perederenko</h1>
+        <div class="general_info padb">
+          <p class="pad padt">
+            <b><i class="far fa-envelope"></i>Email:</b>
+            danperederenko@gmail.com
+          </p>
+          <p class="pad">
+            <b><i class="fas fa-phone"></i>Phone:</b> (380)-097-***-**-20
+          </p>
+          <p class="pad">
+            <b><i class="fas fa-map-marker-alt"></i>Location:</b>
+            Ukraine/Cherkassy region/v.Biloziriya
+          </p>
+          <p class="pad">
+            <b><i class="far fa-laugh"></i>Summanary:</b> honesty, smart,
+            hardworking, punctual
+          </p>
+        </div>
+        <div class="hobby block">
+          <div class="head_name center"><h2>Hobby</h2></div>
+          <div class="info">
+            <p>Flexible</p>
+            <p>Motived</p>
+            <p>Open to a new ideas and initiativies</p>
+            <p>Hradworking</p>
+            <p>Honest</p>
+            <p>Punctual</p>
+          </div>
+        </div>
+        <div class="skills block">
+          <div class="head_name center"><h2>Skills</h2></div>
+          <div class="info">
+            <p>HTML5/CSS3 - 1 year</p>
+            <p>git - 1 year</p>
+            <p>Python3.8 - 0.5 year</p>
+          </div>
+        </div>
+        <div class="exp block">
+          <div class="head_name center"><h2>Experience</h2></div>
+          <div class="info">
+            <p>ChDTY DeanOffice 2.0, autumn 2019 -- ...</p>
+            <p>Freelance</p>
+          </div>
+        </div>
+        <div class="edu block">
+          <div class="head_name center"><h2>Education</h2></div>
+          <div class="info"><p>ChDTY, Web backhalor 2019 - 2023</p></div>
+        </div>
+        <div class="lang block">
+          <div class="head_name center"><h2>Languages</h2></div>
+          <div class="info">
+            <p>Ukrainian and Russian – Native</p>
+            <p>English – A2</p>
+          </div>
+        </div>
+        <div class="cer block">
+          <div class="head_name center"><h2>Certificate</h2></div>
+          <div class="info"><p>Haven't</p></div>
+        </div>
+      </div>
+      <div class="costul"></div>
+    </main>
+    <footer>
+      <div class="left"></div>
+      <div class="mid">
+        <!-- <div class="blocks"></div> -->
+        <p><i class="far fa-copyright"></i>Creating by student</p>
+        <!-- <div class="blocks"></div> -->
+      </div>
+      <div class="right"></div>
+    </footer>
+    <script src="js/Easy-theme-toggle.js"></script>
+  </body>
+</html>

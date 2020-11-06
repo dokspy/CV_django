@@ -1,0 +1,137 @@
+{% load  static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="{% static 'polls/oficial.css' %}" />
+    <link rel="stylesheet" href="{% static 'polls/headerStyle.css' %}" />
+    <link rel="stylesheet" href="{% static 'polls/footerStyle.css' %}">
+    <script
+      src="https://kit.fontawesome.com/25691b521e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- begin header and navigation -->
+    <header>
+      <nav>
+        <ul class="nav_bar">
+          <li class="nav mainlink"><a href="index">Головна</a></li>
+          <li class="nav secondlink"><a href="data">Терміни</a></li>
+          <div class="zaglyshka"></div>
+          <div class="zaglyshka"></div>
+          <div class="zaglyshka"></div>
+          <div class="zaglyshka"></div>
+          <div class="zaglyshka"></div>
+          <div class="zaglyshka"></div>
+          <div class="zaglyshka"></div>
+          <li class="nav change_lan">
+            <a href="cvofficial">UK</a>
+          </li>
+          <!-- <li class="nav">
+              <button onclick="toggleTheme('dark')">Dark</button
+              ><button onclick="toggleTheme('light')">Light</button>
+            </li> -->
+        </ul>
+      </nav>
+    </header>
+    <!-- end header and navigation -->
+    <main>
+      <section id="left"></section>
+      <section id="mid">
+        <div class="info">
+          <div class="head-block">
+            <h1>Данііл Переденко</h1>
+            <div class="contacs">
+              <i class="far fa-envelope"></i>
+              <h3>dan@gmail.com</h3>
+              <i class="fas fa-phone"></i>
+              <h3>0980987204</h3>
+              <a href="http://"><i class="fab fa-facebook"></i></a>
+              <a href="https://github.com/dokspy"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="info short-info">
+            <div class="line for_hr">
+              <div class="hr"></div>
+              <div><h1>Якості</h1></div>
+              <div class="hr"></div>
+            </div>
+            <p>Працьовитий,</p>
+            <p>чесний,</p>
+            <p>пунктуальний,</p>
+          </div>
+          <div class="info hobby">
+            <div class="line for_hr">
+              <div class="hr"></div>
+              <div><h1>Хоббі</h1></div>
+              <div class="hr"></div>
+            </div>
+            <p>Читання книжок,</p>
+            <p>малювання,</p>
+            <p>3д скульптинг,</p>
+            <p>собака,</p>
+            <p>музика,</p>
+            <p>відео ігри</p>
+          </div>
+          <div class="info skills">
+            <div class="line for_hr">
+              <div class="hr"></div>
+              <h1>Cкіли</h1>
+              <div class="hr"></div>
+            </div>
+            <p>HTML5/CSS3,</p>
+            <p>Python3.8,</p>
+            <p>git</p>
+          </div>
+          <div class="info exp">
+            <div class="line for_hr">
+              <div class="hr"></div>
+              <h1>Досвіт</h1>
+              <div class="hr"></div>
+            </div>
+            <p>ЧДТУ DeanOffice 2.0, Осінь 2019 - ...</p>
+          </div>
+          <div class="info edu">
+            <div class="line for_hr">
+              <div class="hr"></div>
+              <h1>Освіта</h1>
+              <div class="hr"></div>
+            </div>
+            <p>ЧДТУ, Web бакалавр</p>
+          </div>
+          <div class="info cert">
+            <div class="line for_hr">
+              <div class="hr"></div>
+              <h1>Сертіфікат</h1>
+              <div class="hr"></div>
+            </div>
+            <p>Нема</p>
+          </div>
+          <div class="info about">
+            <div class="line for_hr">
+              <div class="hr"></div>
+              <h1>Про себе</h1>
+              <div class="hr"></div>
+            </div>
+            <p>
+              Я студент ЧДТУ, подобається грати грати на музичних інструментах
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="right"></section>
+    </main>
+    <footer>
+      <div class="left"></div>
+      <div class="mid">
+        <!-- <div class="blocks"></div> -->
+        <p><i class="far fa-copyright"></i>Creating by student</p>
+        <!-- <div class="blocks"></div> -->
+      </div>
+      <div class="right"></div>
+    </footer>
+  </body>
+</html>
